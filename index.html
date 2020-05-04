@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Pagrindinis</title>
+    <script src="https://kit.fontawesome.com/1aabc58f3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="/img/LogoMakr_4otfhg.png" alt="">
+            </a>
+        </div>
+        <button class="nav-toggle"aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Introductions-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Sveiki, aš esu <strong>Zigmas</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro ">Mokinįs</p>
+        <img src="/img/protfolio.jpg" alt="" class="intro__img">
+    </section>
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Ką aš mokinuosi ?</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Kurti puslapį</h3>
+                <p>Mokausi Front-End ir Back_end pagrindus "CodeAcademy" kursuose.</p>
+            </div> <!-- / Service-->
+            <div class="service">
+                <h3>C++ žaidimų kųrimo</h3>
+                <p>Mokausi kurti žaidimus su C++ kalba.</p>
+            </div> <!-- / Service-->
+        </div> <!-- / Services-->
+        <a href="#work" class="btn">Mano projektai</a>
+    </section>
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Kas aš esu?</h2>
+        <p class="section__subtitle section__subtitle--about">Mokinys / Mėgejas programuotujas</p>
+        <div class="about-me__body">
+            <p>Sveiki, mano vardas Zigmas.</p>
+            <p>Aš esu kiles iš mažo miestelio, kurio pavadinimas yra "Šilalė". Aš esu baiges dvyliką klasių. Esu Darbštus, draugiškas ir moku dirbti komandoje.
+               Kolkas niekur nedirbu, bet tikuosi kad pasieksiu savo svajonių tapti tikru programuotoju.
+            </p>
+        </div>
+        <img src="/img/portfolio-01.jpg" alt="" class="about-me__img">
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Mano Projektai</h2>
+        <p class="section__subtitle section__subtitle--work">Keli mano projektai</p>
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item-01.html" class="portfolio__item">
+                <img src="/img/my-first-project.jpg" alt="c++ SFML RPG" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item-02.html" class="portfolio__item">
+                <img src="/img/Code.jpg" alt="Page Creation" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Replace with your own email address -->
+        <a href="mailto:dirmius12@gmail.com" class="footer__link">dirmius12@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.facebook.com/zigmasdas.dirmantas" class="social-list__link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://twitter.com/ZDirmantas" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/PainKilers" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="/js/index.js"></script>
+</body>
+</html>
