@@ -457,12 +457,16 @@ header {
     margin-right: auto;
 }
 .portfolio-item-individual img {
-    max-width: 300px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
+@media (max-width: 600px) {
+    .portfolio-item-individual img {
+        width: 100%;
+    }
+}
 
 
 
