@@ -462,6 +462,12 @@ header {
     margin-right: auto;
 }
 
+@media (min-width: 400) {
+   .porfolio-item-individual img {
+      max-width: 200px;
+   }
+}
+
 
 
 
